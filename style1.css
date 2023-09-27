@@ -1,0 +1,201 @@
+
+@media (max-width:600px){
+    .nav{
+         height: 60px;
+         padding: 0vw 5vw;
+        
+     }
+    .nav>img{
+         height: 100%;
+         width: 10vw;
+     }
+     .mid-nav>a{
+         font-size: 4vw;
+         display: none;
+     }
+    .nav>button{
+        display: none;
+    }
+    .nav>i{
+        display: block;
+        font-size: 4.5vw;
+    }
+    .page1{
+        height:100vh;
+        width: 100vw;
+        background-color: black;
+        flex-direction: column;
+    }
+    .page1-left{
+        height:50vh;
+        width:100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5vw;
+    }
+    .page1-left .sub-left{
+        height: fit-content;
+        width: 100%;
+    }
+    .sub-left>h3{
+        margin-top: 15vw;
+        font-size: 4vw;
+        margin-right: 48vw;
+    }
+    .sub-left>h1{
+        font-size: 15.5vw;
+    }
+    .sub-left>h2{
+        font-size: 3vw;
+        margin-left: 5vw;
+        
+    }
+    .social-media{
+        font-size:5vw;
+        margin-top: 1.5vw;
+    }
+    .btn>button{
+        margin-top: 2vw;
+        font-size: 3.5vw;
+        padding: 2vw 2vw;
+    }
+    .page1-right{
+        height:50%;
+        width:100%;
+    }
+    .page1-right .image{
+        height: 42vh;
+        width: 55vw;
+        margin-bottom: 100px;
+    }
+    .image .img-div{
+        height: 40vh;
+        width:45vw;
+    }
+    .page2{
+        height: 100vh;
+        width: 100vw;
+        flex-direction: column;
+    }
+    .page2-left{
+        height: 45vh;
+        width: 100vw;
+    }
+    .page2-left .image1{
+        height: 40vh;
+        width: 55vw;
+    }
+    .image1 .img-div2{
+        height:36vh;
+        width:45vw;
+    }
+    .page2-right{
+        height: 50vh;
+        width: 100vw;
+        padding-left: 3vw;
+    }
+    .page2-right>h1{
+        font-size: 8vw;
+    }
+    .page2-right>h5{
+        font-size: 4vw;
+    }
+    .page2-right>p{
+        font-size: 3vw;
+        letter-spacing: 0.2vw;
+        line-height: 3vw;
+        width: 90%;
+    }
+    .page2-right>button{
+        margin-top: 2vw;
+        font-size: 3.5vw;
+        padding: 2vw 2vw;
+    }
+    .page3{
+        flex-direction: column;
+        height:fit-content;
+    }
+    .page3 .page3-mid>h1{
+        font-size: 5vw;
+        padding-bottom: 1vw;
+    }
+    .page3 .page3-mid>h1 #spn{
+        font-size: 5vw;
+    }
+    .page3 .page3-mid>h6{
+        font-size: 3.6vw;
+        padding-bottom: 8vw;
+    }
+    .page3-sub{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        gap: 5vw;
+    }
+    .project-div{ 
+        padding-top: 5vw;
+    }
+    .project-div>h1{
+        font-size: 5.5vw;
+        padding-bottom: 1vw;
+    }
+    .project-div>summary{
+        font-size: 2.7vw;
+    }
+    .project-div>a{
+        font-size: 3vw;
+        margin-left: 50vw;
+    }
+    .project{
+        width: 70vw;
+    }
+    .page4{
+        height: 80vh;
+        width: 100vw;
+    }
+    .page4 .page4-sub{
+        padding-bottom: 1vw;
+    }
+    .page4-sub>h1{
+        font-size: 5vw;
+        padding-top: 1vw;
+    }
+    .page4-sub>h1 span{
+        font-size: 5vw;
+    }
+    .page4-sub>h6{
+        font-size: 3.6vw;
+    }
+    .page4-sub .main-skills{
+        flex-direction: column;
+        gap: 5vw;
+    }
+    .main-skills .skills{
+        width: 90%;
+        height: 100%;
+    }
+    .skills-bar>h5{
+        font-size: 4vw;
+    }
+    .page5{
+        height: 60vh;
+    }
+    form>h1{
+        font-size: 7vw;
+    }
+    input, textarea{
+        font-size: 2.6vw;
+        padding: 2vw;
+    }
+    lable{
+        padding: 2vw;
+    }
+    button{
+        font-size: 3vw;
+        padding: 2vw 3vw;
+    }
+    .page5{
+        height: fit-content;
+    }
+ }
